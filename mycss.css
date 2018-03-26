@@ -1,0 +1,21 @@
+.panorama {
+	width: 100%;
+	height: 800px;
+	position: relative;
+}
+
+
+#pano_image {
+	background-image: url('./images/Controlroom_hero.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+	cursor: pointer;
+	transition: 300 ease-in;
+
+.p_container {
+	overflow: hidden;
+}
